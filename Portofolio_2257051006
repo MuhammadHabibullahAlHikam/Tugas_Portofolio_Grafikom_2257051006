@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portofolio Muhammad Habibullah Al Hikam</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#38bdf8;
+    color:#1e293b;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:white;
+}
+
+.profile{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+    border:4px solid #38bdf8;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:40px 0;
+}
+
+section{
+    margin-bottom:50px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#0ea5e9;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.btn:hover{
+    background:#0284c7;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:white;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+    <img src="foto.jpg" alt="Foto Profil" class="profile">
+
+    <h1>Muhammad Habibullah Al Hikam</h1>
+    <p>Mahasiswa Ilmu Komputer Universitas Lampung</p>
+
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>
+            Halo, saya Muhammad Habibullah Al Hikam. Halaman ini berisi
+            dokumentasi tugas dan kuis mata kuliah Grafika Komputer dalam bentuk video YouTube.
+        </p>
+    </section>
+
+    <section>
+        <h2>Tugas Grafika Komputer</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Tugas 1</h3>
+                <p>Pengertian, Sejarah dan Tokoh Perintis Grafika Komputer</p>
+                <a class="btn" href="https://youtu.be/NWWL4GcDbEo" target="_blank">Lihat Video</a>
+            </div>
+
+            <div class="card">
+                <h3>Tugas 2</h3>
+                <p>Sistem Grafika Komputer</p>
+                <a class="btn" href="https://youtu.be/lO3TCBHHXxA" target="_blank">Lihat Video</a>
+            </div>
+
+            <div class="card">
+                <h3>Tugas 3</h3>
+                <p>Algoritma Pembentukan Garis</p>
+                <a class="btn" href="https://youtu.be/dCn6kj7IrIQ" target="_blank">Lihat Video</a>
+            </div>
+
+            <div class="card">
+                <h3>Tugas 4</h3>
+                <p>Algoritma Pembentukan Lingkaran</p>
+                <a class="btn" href="https://youtu.be/r1L5r-NoA_c" target="_blank">Lihat Video</a>
+            </div>
+
+            <div class="card">
+                <h3>Tugas 5</h3>
+                <p>Algoritma Pembentukan Kurva</p>
+                <a class="btn" href="https://youtu.be/7-U_G5KCh0I" target="_blank">Lihat Video</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Kuis Grafika Komputer</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Kuis 1</h3>
+                <p>Persamaan Misteri</p>
+                <a class="btn" href="https://youtu.be/_c3IufGLbvE" target="_blank">Lihat Video</a>
+            </div>
+
+            <div class="card">
+                <h3>Kuis 2</h3>
+                <p>Transformasi 2D</p>
+                <a class="btn" href="https://youtu.be/ognPWNR_Y2g" target="_blank">Lihat Video</a>
+            </div>
+
+            <div class="card">
+                <h3>Kuis 3</h3>
+                <p>Algoritma Pemotongan Garis</p>
+                <a class="btn" href="https://youtu.be/Jvlk5r1hrMk" target="_blank">Lihat Video</a>
+            </div>
+
+            <div class="card">
+                <h3>Kuis 4</h3>
+                <p>Algoritma Pemotongan Poligon</p>
+                <a class="btn" href="https://youtu.be/hUJuTp-K8Xk" target="_blank">Lihat Video</a>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
